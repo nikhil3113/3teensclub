@@ -1,0 +1,144 @@
+html{
+    
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color:#DCFA41 ;
+    position:absolute;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    top:10px;
+    font-size: 40px;
+    
+}
+
+header{
+    background-color: #8037AD;
+    height: 7.9em;
+    margin-top:0px;
+    width: 100%;
+    color: #D89DFC;
+  margin-bottom: 10px;
+}
+
+nav{
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#Events{
+    color: rgb(3, 3, 3);
+   
+    width: 100%;
+    height: 25em;
+    background-image: url("https://media.istockphoto.com/photos/motivation-fuels-the-human-engine-picture-id496719837?b=1&k=20&m=496719837&s=170667a&w=0&h=o9HpZnbFzdXqVdDn9cKe6aUQRgoUWxLeIsjSk6DpJTI=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#Events h2{
+    height: auto;
+    font-size: 35px;
+    position: relative;
+    top: 30%;
+    opacity: 1;
+    text-align: center;
+
+}
+
+#Events h2{
+    text-align: justify;
+  margin: 0 auto;
+    text-align: center;
+    opacity: 1;
+    border-radius: 20px;
+    width: 50%;
+    
+    
+    padding: 10px;
+}
+#Events h1{
+    font-size: 30px;
+}
+
+#Results {
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+}
+
+.image img{
+    width: 27em;
+    height: 20em;
+    padding: 28px;
+}
+
+.quote{
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+    
+    background-color: #8037AD;
+}
+
+#Restaurant{
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.img img{
+    width: 27em;
+    height: 20em;
+    padding: 28px;
+}
+
+.description{
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a{
+    color: #D89DFC;
+}
+a:hover{
+    color: orangered;
+}
+
+@media screen and (max-width: 600px) 
+{
+    #Events{
+        height: 50em;
+    }
+
+    .image img{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: 0 auto;
+    }
+    .img img{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: 0 auto;
+    }
+}
